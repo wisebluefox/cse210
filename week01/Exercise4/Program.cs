@@ -62,3 +62,21 @@ class Program
         //Displays the largest number in the list
     }
 }
+//There are 4 steps to the code
+// 1: get numbers
+// 2: add them to a list
+// 3: calculate sum + average
+// 4: find the biggest number
+
+// List<int>        A List that stores whole numbers
+// new List<int>()  Creates a new empty list
+// .Add()           Adds something to a list
+// .Count           Tells you how many items are in a list
+// [0]              Gets the first item
+// while            Repeats while a condition is true
+// foreach          Goes through every item
+// +=               Adds to the existing value
+// (float)          Converts a values to a decimal number
+// int              Whole number
+// float            decimal number
+// if               Checks a condition
