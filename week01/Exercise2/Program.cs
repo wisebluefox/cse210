@@ -13,24 +13,24 @@ class Program
         string letter;
         //Creates a string variable called letter
         //Used to store the grade (A, B, C, D, or F)
-        if (x > 90)
+        if (x >= 90)
         //Checks if x is greater than 90
         {
             letter = "A";
         }
        
-        else if (x < 90 && x > 80)
+        else if (x >= 80)
         //if the first condition was false, checks this condition
         //Checks if x is between 80-90
         {
             letter = "B";
         }
-          else if (x < 80 && x > 70)
+          else if (x >= 70)
         //Checks if x is between 70-80
         {
             letter = "C";
         }
-          else if (x < 70 && x > 60)
+          else if (x >=60)
         //Checks if x is between 60-70
         {
             letter = "D";
@@ -49,13 +49,13 @@ class Program
         if (x >= 70)
         //check if the number is 70+
         {
-            Console.WriteLine("Congrats you are passing the class!!!  ");
+            Console.WriteLine("Congrats you are passing the class!!!");
             //If 70+ this prints
         }
         
         else
         {
-            Console.WriteLine("Work harder!!! You are currently failing. ");
+            Console.WriteLine("Work harder!!! You are currently failing.");
             //If 70- this prints
         }
     }
