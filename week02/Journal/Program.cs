@@ -124,3 +124,4 @@ This improved the visibility when loading as well. Also added separator between 
 unless it automatically saves after leaving the entry. 
 6) automatic loading when the program starts because why not. 
 7) I created a custom journal interface so that the user could easily navigate like a video game
+*/
