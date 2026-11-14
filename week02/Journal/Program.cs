@@ -111,3 +111,16 @@ class Program
         }
     }
 }
+
+/*
+Creativity:
+Here are the things I added to make the journal project work better and easier for the user
+1) to make it more fun i added multiple journal categories with varies questions each
+2) have a random prompt selection so that it doesn't feel to linear and the user can get varrying topics each time
+3) as i was testing it i noticed that some stories are multiple paragraphs so i added a way to have multiple paragraphs. 
+This improved the visibility when loading as well. Also added separator between each entry because it was getting to much text without breaks. 
+4) did automatic date recording because im to lazy to check the date
+5) automatic saving because at first i had it separate and it was to confusing and I forget things easily so i'm never sure if i saved or not
+unless it automatically saves after leaving the entry. 
+6) automatic loading when the program starts because why not. 
+7) I created a custom journal interface so that the user could easily navigate like a video game
