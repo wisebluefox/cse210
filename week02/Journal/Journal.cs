@@ -45,7 +45,7 @@ public class Journal
             {
                 // Replace paragraph breaks with a special marker
                 string savedResponse = entry._response
-                    .Replace(Environment.NewLine, "[NEWLINE]")
+                    .Replace(Environment.NewLine, "[NEWLINE]");
                     /*Environment.NewLine detect line break format of the computer
                     for example Windows does \r\n Linux \n macOS \n and this automatically deals with it
                     .Replace() replaces the line break with a [NEWLINE] before saving
